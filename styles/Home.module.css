@@ -1,0 +1,16 @@
+.logo {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  height: 60px;
+  overflow: hidden;
+}
+
+.logoInner {
+  transition: 500ms ease-in-out;
+  /* transform: translateY(0); */
+}
+
+.logo:hover .logoInner {
+  transform: translateY(-60px);
+}
