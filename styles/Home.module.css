@@ -7,7 +7,7 @@
 }
 
 .logoInner {
-  transition: 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
   /* transform: translateY(0); */
 }
 

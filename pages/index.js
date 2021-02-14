@@ -6,6 +6,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Nikita Makhov</title>
+        <meta name="description" content="Nikita Makhov, front-end developer from Russia, Moscow"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -32,11 +33,11 @@ export default function Home() {
           <p className="font-heading text-2xl">Can't touch this</p>
 
           <div className="flex flex-row justify-center mt-4 mb-8">
-            <img src="./social/facebook.svg" width="24" className="mx-4" />
-            <img src="./social/github.svg" width="24" className="mx-4" />
-            <img src="./social/instagram.svg" width="24" className="mx-4" />
-            <img src="./social/twitter.svg" width="24" className="mx-4" />
-            <img src="./social/lastfm.svg" width="24" className="mx-4" />
+            <img src="./social/facebook.svg" alt="Facebook icon" width="24" className="mx-4" />
+            <img src="./social/github.svg" alt="Github icon" width="24" className="mx-4" />
+            <img src="./social/instagram.svg" alt="Instagram icon" width="24" className="mx-4" />
+            <img src="./social/twitter.svg" alt="Twitter icon" width="24" className="mx-4" />
+            <img src="./social/lastfm.svg" alt="LastFm icon" width="24" className="mx-4" />
           </div>
         </footer>
       </div>
