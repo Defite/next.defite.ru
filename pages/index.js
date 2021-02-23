@@ -12,8 +12,8 @@ export default function Home() {
 
       <div className="container mx-auto flex flex-col flex-wrap justify-center items-center h-screen">
         <header className="mt-auto">
-          <h1 className={`font-heading font-bold text-6xl ${styles.logo}`}>
-            <div className={styles.logoInner}>
+          <h1 className={`font-heading font-bold text-6xl sm:text-5xl ${styles.logo} h-16 sm:h-12 group`}>
+            <div className={`transform group-hover:-translate-y-16 sm:group-hover:-translate-y-12 ${styles.logoInner}`}>
               <div className={styles.up}>
                 Nikita Makhov<span className="text-logo-pink-dot">.</span>
               </div>
@@ -22,7 +22,7 @@ export default function Home() {
               </div>
             </div>
           </h1>
-          <p className="font-body text-gray-500 mt-2 text-xl">
+          <p className="font-body text-gray-500 mt-2 text-xl sm:text-base text-center">
             Front-end developer in Mail.ru from Russia, Moscow
           </p>
         </header>
