@@ -23,13 +23,13 @@ export default function Home() {
             </div>
           </h1>
           <p className="font-body text-gray-500 mt-2 text-xl sm:text-base text-center">
-            Front-end developer in Mail.ru from Russia, Moscow
+            Front-end developer in VK from Russia, Moscow
           </p>
         </header>
 
         {/* <main></main> */}
 
-        <footer className="mt-auto">
+        {/*<footer className="mt-auto">
           <p className="font-heading text-2xl text-center">Can't touch this</p>
 
           <div className="flex flex-row justify-center mt-4 mb-8">
@@ -39,7 +39,7 @@ export default function Home() {
             <img src="./social/twitter.svg" alt="Twitter icon" width="24" height="24" className="mx-4 h-6" />
             <img src="./social/lastfm.svg" alt="LastFm icon" width="24" height="24" className="mx-4 h-6" />
           </div>
-        </footer>
+        </footer>*/}
       </div>
     </div>
   );
