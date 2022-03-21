@@ -29,17 +29,17 @@ export default function Home() {
 
         {/* <main></main> */}
 
-        {/*<footer className="mt-auto">
+        <footer className="mt-auto">
           <p className="font-heading text-2xl text-center">Can't touch this</p>
 
           <div className="flex flex-row justify-center mt-4 mb-8">
-            <img src="./social/facebook.svg" alt="Facebook icon" width="24" height="24" className="mx-4 h-6" />
+            {/*<img src="./social/facebook.svg" alt="Facebook icon" width="24" height="24" className="mx-4 h-6" />*/}
             <img src="./social/github.svg" alt="Github icon" width="24" height="24" className="mx-4 h-6" />
-            <img src="./social/instagram.svg" alt="Instagram icon" width="24" height="24" className="mx-4 h-6" />
+            {/*<img src="./social/instagram.svg" alt="Instagram icon" width="24" height="24" className="mx-4 h-6" />*/}
             <img src="./social/twitter.svg" alt="Twitter icon" width="24" height="24" className="mx-4 h-6" />
             <img src="./social/lastfm.svg" alt="LastFm icon" width="24" height="24" className="mx-4 h-6" />
           </div>
-        </footer>*/}
+        </footer>
       </div>
     </div>
   );
